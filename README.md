@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+**React Video Player App Assignment**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Deadline: 5 Days**
 
-## Available Scripts
+**Objective:**
+Create a Video Player application using React.js or Next.js to allow users to play videos from a playlist. The app should support features like seeking, timer, autoplay, and speed selector. Additionally, users should be able to reorder the playlist.
 
-In the project directory, you can run:
+**Requirements:**
+1. **Video Player Component:**
+   - Implement a video player with essential functionalities:
+   - Play/Pause toggle.
+   - Seek functionality.
+   - Timer displaying current playback time and duration.
+   - Autoplay.
+   - Speed selector for playback speed adjustment.
 
-### `npm start`
+**NOTE**: Player component is preferred when built in house. If you're facing any issue, feel free to use external libraries for player based on your preference.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Playlist Component:**
+   - Develop a playlist component to display and manage videos.
+   - Allow users to reorder videos in the playlist.
+   - Clicking on a video in the playlist should load and play that video in the video player.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**NOTE**: Feel free to use any external libraries for re-ordering. Although, make sure everything is optimised and your app size is light as a feather :)
 
-### `npm test`
+3. **React State Management:**
+   - Use React state / context to manage video playback, playlist state, and other necessary variables.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Styling:**
+   - Utilize Tailwind CSS or styled-components for styling. (This is optional but preferred)
+   - Ensure a clean and user-friendly interface.
 
-### `npm run build`
+**Tech Stack:**
+- React.js
+- Next.js (optional)
+- Tailwind CSS / styled-components (optional)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Bonus (Optional):**
+- Implement additional features such as fullscreen mode, volume control, thumbnail previews, or search/filter functionality for the playlist.
+- Make the application responsive for various screen sizes.
+- Add keyboard shortcuts for keyboard warriors.
+- Videos should continue playing from where users left-off.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Submission Guidelines:**
+- Create a GitHub repository for the project and share the link.
+- Include clear instructions on how to run the application locally. (Hosted version is preferred)
+- Provide a brief overview of the project structure and any additional notes.
+- Adding a lighthouse score / performance report will be cherry on the top.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Evaluation Criteria:**
+- Adherence to requirements.
+- Code quality and organization.
+- User interface design and experience.
+- Effective use of React.js or Next.js features.
+- Bonus points for additional features beyond the mandatory requirements.
 
-### `npm run eject`
+**Remeber**: Any evidence of copied code from the internet will result in disqualification. Originality and integrity are key aspects of this assignment.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note**: This is an open ended question. Let your creative juices run wild.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Help**: Reach out to aakash@rigi.club or ishan.c@rigi.club for any doubt regarding the assignment. You can use this link to get free list of hosted sample videos - https://gist.github.com/jsturgis/3b19447b304616f18657
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Get out there and show us what you've got! 🤘🎶
